@@ -1,6 +1,6 @@
 # FileSizeandFileCRC
 
-1. List all the files in the mentioned folder (allow user to enter the folder name at command prompt) and its sub-folders in the format      Sr. No., FileName, Folder Path, Size, Date Created, Date Modified, FileCRC
+1. List all the files in the mentioned folder (allow user to enter the folder name at command prompt) and its sub-folders in the format      (Sr. No., FileName, Folder Path, Size, Date Created, Date Modified, FileCRC)
 2. Sort the above table in a FileSizeSort.CSV file based on the File Size
 3. Sort the above table in a FileCrcSort.CSV file based on the File CRC
 
