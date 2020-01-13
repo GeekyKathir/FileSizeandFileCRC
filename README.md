@@ -1,9 +1,13 @@
 # FileSizeandFileCRC
 
-1. List all the files in the mentioned folder (allow user to enter the folder name at command prompt) and its sub-folders in the format      (Sr. No., FileName, Folder Path, Size, Date Created, Date Modified, FileCRC)
-2. Sort the above table in a FileSizeSort.CSV file based on the File Size
-3. Sort the above table in a FileCrcSort.CSV file based on the File CRC
+Program to list all files in the directory and its sub directories using C++
 
-Notes:
-1. The File CRC is computed using a 32-bit CRC with seed value = 0xFFFFFFFF and polynomial = 0x973afb51 (given polynomial) 
-2. Write a class for CRC computation and use it in the main() function
+The files listed contains, Sr.No., FileName, FolderPath, Size, Date Created, Date Modified, File CRC
+
+Input: 
+1. User should enter a valid directory
+
+Output: 
+1. User can see the list of files in the directory and sub directory
+2. Based on File Size, all files listed will be saved in FileSizeSort.csv in the current directory
+3. Based on File CRC, all files listed will be saved in FileCrcSort.csv in the current directory
